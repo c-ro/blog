@@ -2,6 +2,7 @@
  * Site header
  */
 .site-header {
+    background-color: $grey-color;
     border-top: 5px solid $grey-color-dark;
     border-bottom: 1px solid $grey-color-light;
     min-height: 56px;
@@ -20,7 +21,7 @@
 
     &,
     &:visited {
-        color: $grey-color-dark;
+        color: black;
     }
 }
 
@@ -93,7 +94,6 @@
 }
 
 
-
 /**
  * Site footer
  */
@@ -110,12 +110,11 @@
 .contact-list,
 .social-media-list {
     list-style: none;
-    margin-left: 0;
 }
 
 .footer-col-wrapper {
     font-size: 15px;
-    color: $grey-color;
+    color: $grey-color-dark;
     margin-left: -$spacing-unit / 2;
     @extend %clearfix;
 }
@@ -186,7 +185,7 @@
 
 .post-meta {
     font-size: $small-font-size;
-    color: $grey-color;
+    color: $highlight-color;
 }
 
 .post-link {

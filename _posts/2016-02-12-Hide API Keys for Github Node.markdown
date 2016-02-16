@@ -12,10 +12,10 @@ Create a file called keys.js (or whatever) and use node's module.exports to make
 {% highlight javascript %}
 module.exports = {
 	twit: {
-		consumer_key: '36fnsksd0dsoidnsdf098vc03iw0ifdw',
-	    consumer_secret: '89hsfhufepiuqu9hafsy97afwhuprqbwiafigsphiuaf',
-	    access_token: '3fhu93fnioefgiofgej0if39hufg79hgr3',
-	    access_token_secret: 'h98age9h8aegh98ge0eg0ji090u8u08ermk'
+	consumer_key: '36fnsksd0dsoidnsdf098vc03iw0ifdw',
+	consumer_secret: '89hsfhufepiuqu9hafsy97afwhuprqbwiafigsphiuaf',
+	access_token: '3fhu93fnioefgiofgej0if39hufg79hgr3',
+	access_token_secret: 'h98age9h8aegh98ge0eg0ji090u8u08ermk'
 	}
 };
 {% endhighlight %}
