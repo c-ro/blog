@@ -8,12 +8,11 @@ dl, dd, ol, ul, figure {
     padding: 0;
 }
 
-
-
 /**
  * Basic styling
  */
 body {
+    padding-top: 70px;
     font: $base-font-weight #{$base-font-size}/#{$base-line-height} $base-font-family;
     color: $text-color;
     -webkit-text-size-adjust: 100%;
@@ -91,8 +90,6 @@ li {
          margin-bottom: 0;
     }
 }
-
-
 
 /**
  * Headings
@@ -189,6 +186,15 @@ pre {
     }
 }
 
+.navbar {
+    background-color: #dddddd !important;
+    font-size: 14px;
+}
+
+.navbar a{
+    text-decoration: none;
+    color: black;
+}
 
 
 /**
