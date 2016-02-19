@@ -66,11 +66,42 @@ body {
     width: 12em;
 }
 
+/* NAVBAR STYLE */
+
 .navbar {
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#cccccc+0,eeeeee+33,eeeeee+68,cccccc+99 */
+    background: rgb(204,204,204); /* Old browsers */
+    background: -moz-linear-gradient(left,  rgba(204,204,204,1) 0%, rgba(238,238,238,1) 33%, rgba(238,238,238,1) 68%, rgba(204,204,204,1) 99%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(left,  rgba(204,204,204,1) 0%,rgba(238,238,238,1) 33%,rgba(238,238,238,1) 68%,rgba(204,204,204,1) 99%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right,  rgba(204,204,204,1) 0%,rgba(238,238,238,1) 33%,rgba(238,238,238,1) 68%,rgba(204,204,204,1) 99%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cccccc', endColorstr='#cccccc',GradientType=1 ); /* IE6-9 */
+
     -webkit-box-shadow: 0px 10px 28px -6px rgba(0,0,0,0.54);
     -moz-box-shadow: 0px 10px 28px -6px rgba(0,0,0,0.54);
     box-shadow: 0px 10px 28px -6px rgba(0,0,0,0.54);
-    height: 50px;
+    min-height: 50px;
+
+    font-size: 14px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: black;
+}
+
+.navbar-brand {
+    font-size: 22px;
+    text-shadow: 0px 1px 7px rgba(0, 0, 0, 1) !important;
+    color: #fff !important;
+    font-weight: bold;
+}
+
+.navbar-toggle {
+    background-color: $grey-color-dark;
+}
+
+.icon-bar {
+    background-color: $grey-color-light;
 }
 
 /**
@@ -218,17 +249,6 @@ pre {
         padding-left: $spacing-unit / 2;
     }
 }
-
-.navbar {
-    background-color: #dddddd !important;
-    font-size: 14px;
-}
-
-.navbar a{
-    text-decoration: none;
-    color: black;
-}
-
 
 /**
  * Clearfix
