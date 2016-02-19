@@ -44,6 +44,12 @@ $on-laptop:        800px;
     }
 }
 
+@media screen and (max-width: 900px) {
+    .head {
+    	display: none;
+    }
+}
+
 
 
 // Import partials from `sass_dir` (defaults to `_sass`)
