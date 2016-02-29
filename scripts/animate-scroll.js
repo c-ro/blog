@@ -19,7 +19,7 @@
             else if (execAsap)
                 func.apply(obj, args);
 
-            timeout = setTimeout(delayed, threshold || 20);
+            timeout = setTimeout(delayed, threshold || 100);
         };
     };
 
